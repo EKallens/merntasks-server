@@ -25,5 +25,5 @@ app.use('/api/tareas', require('./routes/tareasRoute'));
 
 //Correr la app
 app.listen(port, '0.0.0.0', () => {
-    console.log(`Corriendo en el puerto ${port}`);
+    
 });
